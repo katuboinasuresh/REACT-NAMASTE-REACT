@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Namaste react</title>
+</head>
+<body>
+    <div id="root"><h1>hi suresh</h1></div>
+     <!--<h1>Hello World</h1>   (emmet) if already we have element in root its replaced by root.render()method
+    <script>
+        const headeing=document.createElement("h1");
+        headeing.innerHTML="Hello World Javascript";
+
+        const item=document.getElementById("root")
+
+        item.appendChild(headeing)
+    </script>-->
+    <!-- CDN link=>  where using Content Delivery Network (CDN) links can be a advantage, especially for quick prototypes, 
+         or when integrating React into existing projects.  and also with the cdn links we uses the css frameworks l
+         ike bootstap,tailwindcss   (CDN LINK is a online to easly  uses required tools in our projects)
+        crossorigin src  => If you serve React from a CDN, we recommend to keep the crossorigin attribute set:
+        The crossorigin attribute, valid on the <audio>, <img>, <link>, <script>, and <video> elements, provides support for CORS, 
+            defining how the element handles cross-origin requests, thereby enabling the configuration of the CORS requests 
+            for the element's fetched data. 
+            Depending on the element, the attribute can be a CORS settings attribute.
+        -->
+         <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+         <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+         <script src="./App.js">
+            
+         </script>
+</body>
+</html>
